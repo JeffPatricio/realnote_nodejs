@@ -63,7 +63,7 @@
   </a>
   <textarea id="note" spellcheck="false"></textarea>
   <script type="text/javascript">
-    const socket = io('http://f820a003672e.ngrok.io/');
+    const socket = io('https://apprealnote.netlify.app/');
     const editor = document.getElementById('note');
 
     socket.on('old', (data) => {
